@@ -1,0 +1,17 @@
+begin
+     input a
+     input b 
+     input c
+     if (a>b va a>c)
+        display "a la gia tri lon nhat"
+     if (a>b va a<c)
+        display "c la gia tri lon nhat"
+     if (a<b va a>c)
+        display "b la gia tri lon nhat"
+     else
+        display "so sanh b va c"
+     if (b>c)
+        display "b la gia tri lon nhat"
+     else
+        display "c la gia tri lon nhat"
+end

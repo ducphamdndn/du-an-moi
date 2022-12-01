@@ -1,0 +1,19 @@
+begin
+     input a1
+     input a2
+     input a3
+     N=a1,a2,a3,an
+     a1=max
+     if (a1>a2 va a1>a3)
+        display "a1 la gia tri lon nhat"
+     if (a1>a2 va a1<a3)
+        display "a3 la gia tri lon nhat"
+     if (a1<a2 va a1>a3)
+        display "a2 la gia tri lon nhat"
+     else
+        display "so sanh a2 va a3"
+     if (a2>a3)
+        display "a2 la gia tri lon nhat"
+     else
+        display "a3 la gia tri lon nhat"
+end
